@@ -1,0 +1,26 @@
+$roundButtonBorderRadius: 5px;
+$rounderButtonBorderRadius: 20px;
+
+%commonButton {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 35px;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #ae586f;
+  color: whitesmoke;
+  cursor: pointer;
+
+  &:focus {
+      outline: none;
+  }
+
+  &:hover {
+      text-decoration: none;
+  }
+
+  &:disabled {
+      opacity: .13;
+      cursor: auto;
+  }
+}
